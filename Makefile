@@ -23,8 +23,6 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
 
-PKG_BUILD_DEPENDS:=+libopenssl +libusb-1.0 +pcsc-lite
-
 include $(INCLUDE_DIR)/package.mk
 
 define Package/oscam
